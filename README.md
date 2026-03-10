@@ -12,4 +12,9 @@
 
 
 ## 2026-03-10
-
+- 변수 
+- Makefile 작성
+- stringcopy 작성
+- oddEven 작성, charNumber 작성, true false 사용 triangle triangle2 compare compare2 작성 
+- 증감연산자  increment, 음수의 표현, 폰 노이만의 바이트머신
+- genderRatio 작성
