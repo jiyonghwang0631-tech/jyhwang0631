@@ -18,3 +18,8 @@
 - oddEven 작성, charNumber 작성, true false 사용 triangle triangle2 compare compare2 작성 
 - 증감연산자  increment, 음수의 표현, 폰 노이만의 바이트머신
 - genderRatio 작성
+
+## 2026-03-11
+- 조건문 (if문, passFail ,absolutevalue, poszeroneg, scoregrade, switch)
+- 반복문 (for문, while문, contine문, 구구단, star 예제,)
+- 배열 배열연습
