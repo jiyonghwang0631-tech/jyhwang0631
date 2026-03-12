@@ -23,3 +23,6 @@
 - 조건문 (if문, passFail ,absolutevalue, poszeroneg, scoregrade, switch)
 - 반복문 (for문, while문, contine문, 구구단, star 예제,)
 - 배열 배열연습
+
+## 2026-03-12
+- 함수
