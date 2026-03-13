@@ -32,4 +32,11 @@
 - 함수 void 포인터
 
 ## 2026-03-13
-- 
+- cmake 설명, cmake 빌드
+- carSerial 예제, 분할 컴파일 연습
+- cmake VsCode 설정, 디버깅 설정(gdb)
+- cc -c , cc -o 활용해서 링킹 빌드, makefile 작성
+- myRandom 예제 - static 변수, extern 키워드 사용법
+- baseball 게임 만들기 - 게임 설명, main 함수 작성
+- baseball 게임 만들기 - 실습
+- baseball 게임 만들기 - 실습
