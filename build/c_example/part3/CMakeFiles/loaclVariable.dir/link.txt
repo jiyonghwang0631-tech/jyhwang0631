@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/loaclVariable.dir/loaclVariable.c.o -o loaclVariable 

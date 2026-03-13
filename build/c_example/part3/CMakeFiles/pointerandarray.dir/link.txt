@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/pointerandarray.dir/pointerandarray.c.o -o pointerandarray 

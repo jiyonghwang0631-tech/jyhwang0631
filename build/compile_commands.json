@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/add.dir/add.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/add.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/add.c",
+  "output": "c_example/part3/CMakeFiles/add.dir/add.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/arrayassignment.dir/arrayassignment.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/arrayassignment.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/arrayassignment.c",
+  "output": "c_example/part3/CMakeFiles/arrayassignment.dir/arrayassignment.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/arraycompare.dir/arraycompare.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/arraycompare.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/arraycompare.c",
+  "output": "c_example/part3/CMakeFiles/arraycompare.dir/arraycompare.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/bubblesorting.dir/bubblesorting.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/bubblesorting.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/bubblesorting.c",
+  "output": "c_example/part3/CMakeFiles/bubblesorting.dir/bubblesorting.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/loaclVariable.dir/loaclVariable.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/loaclVariable.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/loaclVariable.c",
+  "output": "c_example/part3/CMakeFiles/loaclVariable.dir/loaclVariable.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/pointer1.dir/pointer1.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/pointer1.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/pointer1.c",
+  "output": "c_example/part3/CMakeFiles/pointer1.dir/pointer1.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/pointer2.dir/pointer2.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/pointer2.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/pointer2.c",
+  "output": "c_example/part3/CMakeFiles/pointer2.dir/pointer2.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/pointer3.dir/pointer3.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/pointer3.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/pointer3.c",
+  "output": "c_example/part3/CMakeFiles/pointer3.dir/pointer3.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/pointer5functionpointer.dir/pointer5functionpointer.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/pointer5functionpointer.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/pointer5functionpointer.c",
+  "output": "c_example/part3/CMakeFiles/pointer5functionpointer.dir/pointer5functionpointer.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/pointer6.dir/pointer6.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/pointer6.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/pointer6.c",
+  "output": "c_example/part3/CMakeFiles/pointer6.dir/pointer6.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/pointerandarray.dir/pointerandarray.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/pointerandarray.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/pointerandarray.c",
+  "output": "c_example/part3/CMakeFiles/pointerandarray.dir/pointerandarray.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/pointerandarray2.dir/pointerandarray2.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/pointerandarray2.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/pointerandarray2.c",
+  "output": "c_example/part3/CMakeFiles/pointerandarray2.dir/pointerandarray2.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/qsort.dir/qsort.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/qsort.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/qsort.c",
+  "output": "c_example/part3/CMakeFiles/qsort.dir/qsort.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/selectionSorting.dir/selectionSorting.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/selectionSorting.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/selectionSorting.c",
+  "output": "c_example/part3/CMakeFiles/selectionSorting.dir/selectionSorting.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/swap.dir/swap.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/swap.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/swap.c",
+  "output": "c_example/part3/CMakeFiles/swap.dir/swap.c.o"
+}
+]

@@ -6,22 +6,21 @@ int main(void)
     int *p;
 
     p = nums;
-    p = p;
-    *(p+1) = *(p+2);
-    (p) = (p+1);
-    for(int i = 0; i <5; ++i){
+    *(p + 1) = *(p + 2);
+    p = (p + 1);
+    for (int i = 0; i < 5;++i){
         printf("nums[%d] : %d\t", i, nums[i]);
-        printf("*(p+%d) : %d\t", i , *(p+i));
-        printf("*(nums+%d) : %d\t", i, *(nums + i));
-        printf("p[%d] : %d\n", i, p[i]);
+        printf("*(p+%d) : %d\t", i, *(p + i));
+        printf("*(nums+%d): %d\t", i, *(nums+i));
+        printf("p[%d]: %d\n", i, p[i]);
     }
-   
-    for(int i = 0; i <5; ++i)
+
+    for (int i = 0; i < 5; ++i)
     {
-        printf("nums : %d\t", i, nums[i]);
-        printf("*(p+%d) : %d\t", i, *(p+i));
-        printf("*(nums+%d) : %d\t", i, *(nums + i));
-        printf("p[%d] : %p\n", i, &p[i]);
-    }    
+        printf("nums : %p\t", nums);
+        printf("*(p+%d) : %p\t", i, (p + i));
+        printf("*(nums+%d): %p\t", i, (nums + i));
+        printf("p[%d]: %p\n", i, &p[i]);
+    }
     return 0;
 }
