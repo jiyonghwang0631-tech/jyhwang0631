@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "/home/jyhwang0631/jyhwang0631/c_example/part3/CMakeLists.txt"
+  "/home/jyhwang0631/jyhwang0631/c_example/part4/carSerial/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
@@ -124,6 +125,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "c_example/part3/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "c_example/part4/carSerial/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -143,4 +145,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "c_example/part3/CMakeFiles/qsort.dir/DependInfo.cmake"
   "c_example/part3/CMakeFiles/selectionSorting.dir/DependInfo.cmake"
   "c_example/part3/CMakeFiles/swap.dir/DependInfo.cmake"
+  "c_example/part4/carSerial/CMakeFiles/carSerial.dir/DependInfo.cmake"
   )

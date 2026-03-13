@@ -311,6 +311,19 @@ swap/fast:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/swap.dir/build.make c_example/part3/CMakeFiles/swap.dir/build
 .PHONY : swap/fast
 
+#=============================================================================
+# Target rules for targets named carSerial
+
+# Build rule for target.
+carSerial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carSerial
+.PHONY : carSerial
+
+# fast build rule for target.
+carSerial/fast:
+	$(MAKE) $(MAKESILENT) -f c_example/part4/carSerial/CMakeFiles/carSerial.dir/build.make c_example/part4/carSerial/CMakeFiles/carSerial.dir/build
+.PHONY : carSerial/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -323,6 +336,7 @@ help:
 	@echo "... arrayassignment"
 	@echo "... arraycompare"
 	@echo "... bubblesorting"
+	@echo "... carSerial"
 	@echo "... loaclVariable"
 	@echo "... pointer1"
 	@echo "... pointer2"

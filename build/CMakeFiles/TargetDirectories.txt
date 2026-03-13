@@ -17,3 +17,6 @@
 /home/jyhwang0631/jyhwang0631/build/c_example/part3/CMakeFiles/swap.dir
 /home/jyhwang0631/jyhwang0631/build/c_example/part3/CMakeFiles/edit_cache.dir
 /home/jyhwang0631/jyhwang0631/build/c_example/part3/CMakeFiles/rebuild_cache.dir
+/home/jyhwang0631/jyhwang0631/build/c_example/part4/carSerial/CMakeFiles/carSerial.dir
+/home/jyhwang0631/jyhwang0631/build/c_example/part4/carSerial/CMakeFiles/edit_cache.dir
+/home/jyhwang0631/jyhwang0631/build/c_example/part4/carSerial/CMakeFiles/rebuild_cache.dir

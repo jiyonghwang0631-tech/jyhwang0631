@@ -88,5 +88,17 @@
   "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/swap.dir/swap.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part3/swap.c",
   "file": "/home/jyhwang0631/jyhwang0631/c_example/part3/swap.c",
   "output": "c_example/part3/CMakeFiles/swap.dir/swap.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part4/carSerial",
+  "command": "/usr/bin/gcc  -I/home/jyhwang0631/jyhwang0631/c_example/part4/carSerial -g -std=gnu17 -o CMakeFiles/carSerial.dir/main.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part4/carSerial/main.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part4/carSerial/main.c",
+  "output": "c_example/part4/carSerial/CMakeFiles/carSerial.dir/main.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part4/carSerial",
+  "command": "/usr/bin/gcc  -I/home/jyhwang0631/jyhwang0631/c_example/part4/carSerial -g -std=gnu17 -o CMakeFiles/carSerial.dir/serial.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part4/carSerial/serial.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part4/carSerial/serial.c",
+  "output": "c_example/part4/carSerial/CMakeFiles/carSerial.dir/serial.c.o"
 }
 ]

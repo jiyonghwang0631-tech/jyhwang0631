@@ -767,7 +767,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1167,7 +1167,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jyhwang0631/jyhwang0631/build/c_example/part3"
+			"value" : "/home/jyhwang0631/jyhwang0631/build/c_example/part4/carSerial"
 		},
 		{
 			"name" : "jyhwang0631_IS_TOP_LEVEL",
@@ -1191,7 +1191,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jyhwang0631/jyhwang0631/c_example/part3"
+			"value" : "/home/jyhwang0631/jyhwang0631/c_example/part4/carSerial"
 		}
 	],
 	"kind" : "cache",
