@@ -31,7 +31,6 @@ c_example/part4/carSerial/CMakeFiles/carSerial.dir/main.c.o: /home/jyhwang0631/j
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 c_example/part4/carSerial/CMakeFiles/carSerial.dir/serial.c.o: /home/jyhwang0631/jyhwang0631/c_example/part4/carSerial/serial.c \
-  /home/jyhwang0631/jyhwang0631/c_example/part4/carSerial/serial.h \
   /usr/include/stdc-predef.h
 
 

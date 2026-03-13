@@ -100,5 +100,29 @@
   "command": "/usr/bin/gcc  -I/home/jyhwang0631/jyhwang0631/c_example/part4/carSerial -g -std=gnu17 -o CMakeFiles/carSerial.dir/serial.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part4/carSerial/serial.c",
   "file": "/home/jyhwang0631/jyhwang0631/c_example/part4/carSerial/serial.c",
   "output": "c_example/part4/carSerial/CMakeFiles/carSerial.dir/serial.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part4/myRandom",
+  "command": "/usr/bin/gcc  -I/home/jyhwang0631/jyhwang0631/c_example/part4/myRandom -g -std=gnu17 -o CMakeFiles/myRandom.dir/main.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part4/myRandom/main.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part4/myRandom/main.c",
+  "output": "c_example/part4/myRandom/CMakeFiles/myRandom.dir/main.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part4/myRandom",
+  "command": "/usr/bin/gcc  -I/home/jyhwang0631/jyhwang0631/c_example/part4/myRandom -g -std=gnu17 -o CMakeFiles/myRandom.dir/myRandom.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part4/myRandom/myRandom.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part4/myRandom/myRandom.c",
+  "output": "c_example/part4/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part4/baseballGame",
+  "command": "/usr/bin/gcc  -I/home/jyhwang0631/jyhwang0631/c_example/part4/baseballGame -g -std=gnu17 -o CMakeFiles/baseballGame.dir/main.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part4/baseballGame/main.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part4/baseballGame/main.c",
+  "output": "c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/main.c.o"
+},
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/c_example/part4/baseballGame",
+  "command": "/usr/bin/gcc  -I/home/jyhwang0631/jyhwang0631/c_example/part4/baseballGame -g -std=gnu17 -o CMakeFiles/baseballGame.dir/baseballGame.c.o -c /home/jyhwang0631/jyhwang0631/c_example/part4/baseballGame/baseballGame.c",
+  "file": "/home/jyhwang0631/jyhwang0631/c_example/part4/baseballGame/baseballGame.c",
+  "output": "c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/baseballGame.c.o"
 }
 ]

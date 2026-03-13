@@ -767,7 +767,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1158,7 +1158,43 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "jyhwang0631_BINARY_DIR",
+			"name" : "baseballGame_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/jyhwang0631/jyhwang0631/build/c_example/part4/baseballGame"
+		},
+		{
+			"name" : "baseballGame_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "baseballGame_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/jyhwang0631/jyhwang0631/c_example/part4/baseballGame"
+		},
+		{
+			"name" : "carSerial_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1168,6 +1204,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/jyhwang0631/jyhwang0631/build/c_example/part4/carSerial"
+		},
+		{
+			"name" : "carSerial_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "carSerial_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/jyhwang0631/jyhwang0631/c_example/part4/carSerial"
+		},
+		{
+			"name" : "jyhwang0631_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/jyhwang0631/jyhwang0631/build/c_example/part3"
 		},
 		{
 			"name" : "jyhwang0631_IS_TOP_LEVEL",
@@ -1191,7 +1263,43 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jyhwang0631/jyhwang0631/c_example/part4/carSerial"
+			"value" : "/home/jyhwang0631/jyhwang0631/c_example/part3"
+		},
+		{
+			"name" : "myRandom_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/jyhwang0631/jyhwang0631/build/c_example/part4/myRandom"
+		},
+		{
+			"name" : "myRandom_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "myRandom_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/jyhwang0631/jyhwang0631/c_example/part4/myRandom"
 		}
 	],
 	"kind" : "cache",

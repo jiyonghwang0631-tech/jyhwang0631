@@ -9,7 +9,9 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -34,10 +36,8 @@
 						0,
 						1,
 						2,
-						3,
-						5,
+						4,
 						6,
-						7,
 						8,
 						9,
 						10,
@@ -45,7 +45,9 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17
 					]
 				},
 				{
@@ -56,11 +58,41 @@
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 0,
+					"projectIndex" : 1,
 					"source" : "c_example/part4/carSerial",
 					"targetIndexes" : 
 					[
-						4
+						5
+					]
+				},
+				{
+					"build" : "c_example/part4/myRandom",
+					"jsonFile" : "directory-c_example.part4.myRandom-Debug-89c324995694a2faf3f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "c_example/part4/myRandom",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "c_example/part4/baseballGame",
+					"jsonFile" : "directory-c_example.part4.baseballGame-Debug-98f4587c9fc3e784f7db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "c_example/part4/baseballGame",
+					"targetIndexes" : 
+					[
+						3
 					]
 				}
 			],
@@ -68,11 +100,16 @@
 			"projects" : 
 			[
 				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
 					"directoryIndexes" : 
 					[
 						0,
-						1,
-						2
+						1
 					],
 					"name" : "jyhwang0631",
 					"targetIndexes" : 
@@ -80,11 +117,8 @@
 						0,
 						1,
 						2,
-						3,
 						4,
-						5,
 						6,
-						7,
 						8,
 						9,
 						10,
@@ -92,7 +126,45 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "carSerial",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "myRandom",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "baseballGame",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
 					]
 				}
 			],
@@ -120,6 +192,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 4,
+					"id" : "baseballGame::@6096b1206f831ced1aa4",
+					"jsonFile" : "target-baseballGame-Debug-0b1e5562c6a5d69475e2.json",
+					"name" : "baseballGame",
+					"projectIndex" : 3
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "bubblesorting::@5c6b57e74ac70cf2e417",
 					"jsonFile" : "target-bubblesorting-Debug-e56235785b992591e63c.json",
@@ -131,7 +210,7 @@
 					"id" : "carSerial::@77c50d3a0a8f239fe89c",
 					"jsonFile" : "target-carSerial-Debug-e875c3faa8ee4c7ed7d6.json",
 					"name" : "carSerial",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
@@ -139,6 +218,13 @@
 					"jsonFile" : "target-loaclVariable-Debug-3d5edb9903ae9455edaf.json",
 					"name" : "loaclVariable",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "myRandom::@b9376b5b2fc582b398af",
+					"jsonFile" : "target-myRandom-Debug-5a844bb03bb0dacd1f55.json",
+					"name" : "myRandom",
+					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 1,

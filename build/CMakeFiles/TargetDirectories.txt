@@ -20,3 +20,9 @@
 /home/jyhwang0631/jyhwang0631/build/c_example/part4/carSerial/CMakeFiles/carSerial.dir
 /home/jyhwang0631/jyhwang0631/build/c_example/part4/carSerial/CMakeFiles/edit_cache.dir
 /home/jyhwang0631/jyhwang0631/build/c_example/part4/carSerial/CMakeFiles/rebuild_cache.dir
+/home/jyhwang0631/jyhwang0631/build/c_example/part4/myRandom/CMakeFiles/myRandom.dir
+/home/jyhwang0631/jyhwang0631/build/c_example/part4/myRandom/CMakeFiles/edit_cache.dir
+/home/jyhwang0631/jyhwang0631/build/c_example/part4/myRandom/CMakeFiles/rebuild_cache.dir
+/home/jyhwang0631/jyhwang0631/build/c_example/part4/baseballGame/CMakeFiles/baseballGame.dir
+/home/jyhwang0631/jyhwang0631/build/c_example/part4/baseballGame/CMakeFiles/edit_cache.dir
+/home/jyhwang0631/jyhwang0631/build/c_example/part4/baseballGame/CMakeFiles/rebuild_cache.dir

@@ -324,6 +324,32 @@ carSerial/fast:
 	$(MAKE) $(MAKESILENT) -f c_example/part4/carSerial/CMakeFiles/carSerial.dir/build.make c_example/part4/carSerial/CMakeFiles/carSerial.dir/build
 .PHONY : carSerial/fast
 
+#=============================================================================
+# Target rules for targets named myRandom
+
+# Build rule for target.
+myRandom: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myRandom
+.PHONY : myRandom
+
+# fast build rule for target.
+myRandom/fast:
+	$(MAKE) $(MAKESILENT) -f c_example/part4/myRandom/CMakeFiles/myRandom.dir/build.make c_example/part4/myRandom/CMakeFiles/myRandom.dir/build
+.PHONY : myRandom/fast
+
+#=============================================================================
+# Target rules for targets named baseballGame
+
+# Build rule for target.
+baseballGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 baseballGame
+.PHONY : baseballGame
+
+# fast build rule for target.
+baseballGame/fast:
+	$(MAKE) $(MAKESILENT) -f c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/build.make c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/build
+.PHONY : baseballGame/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -335,9 +361,11 @@ help:
 	@echo "... add"
 	@echo "... arrayassignment"
 	@echo "... arraycompare"
+	@echo "... baseballGame"
 	@echo "... bubblesorting"
 	@echo "... carSerial"
 	@echo "... loaclVariable"
+	@echo "... myRandom"
 	@echo "... pointer1"
 	@echo "... pointer2"
 	@echo "... pointer3"

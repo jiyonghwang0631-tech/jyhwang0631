@@ -65,16 +65,22 @@ CMAKE_BINARY_DIR = /home/jyhwang0631/jyhwang0631/build
 # The main recursive "all" target.
 all: c_example/part3/all
 all: c_example/part4/carSerial/all
+all: c_example/part4/myRandom/all
+all: c_example/part4/baseballGame/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: c_example/part3/preinstall
 preinstall: c_example/part4/carSerial/preinstall
+preinstall: c_example/part4/myRandom/preinstall
+preinstall: c_example/part4/baseballGame/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: c_example/part3/clean
 clean: c_example/part4/carSerial/clean
+clean: c_example/part4/myRandom/clean
+clean: c_example/part4/baseballGame/clean
 .PHONY : clean
 
 #=============================================================================
@@ -121,6 +127,21 @@ c_example/part3/clean: c_example/part3/CMakeFiles/swap.dir/clean
 .PHONY : c_example/part3/clean
 
 #=============================================================================
+# Directory level rules for directory c_example/part4/baseballGame
+
+# Recursive "all" directory target.
+c_example/part4/baseballGame/all: c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/all
+.PHONY : c_example/part4/baseballGame/all
+
+# Recursive "preinstall" directory target.
+c_example/part4/baseballGame/preinstall:
+.PHONY : c_example/part4/baseballGame/preinstall
+
+# Recursive "clean" directory target.
+c_example/part4/baseballGame/clean: c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/clean
+.PHONY : c_example/part4/baseballGame/clean
+
+#=============================================================================
 # Directory level rules for directory c_example/part4/carSerial
 
 # Recursive "all" directory target.
@@ -134,6 +155,21 @@ c_example/part4/carSerial/preinstall:
 # Recursive "clean" directory target.
 c_example/part4/carSerial/clean: c_example/part4/carSerial/CMakeFiles/carSerial.dir/clean
 .PHONY : c_example/part4/carSerial/clean
+
+#=============================================================================
+# Directory level rules for directory c_example/part4/myRandom
+
+# Recursive "all" directory target.
+c_example/part4/myRandom/all: c_example/part4/myRandom/CMakeFiles/myRandom.dir/all
+.PHONY : c_example/part4/myRandom/all
+
+# Recursive "preinstall" directory target.
+c_example/part4/myRandom/preinstall:
+.PHONY : c_example/part4/myRandom/preinstall
+
+# Recursive "clean" directory target.
+c_example/part4/myRandom/clean: c_example/part4/myRandom/CMakeFiles/myRandom.dir/clean
+.PHONY : c_example/part4/myRandom/clean
 
 #=============================================================================
 # Target rules for target c_example/part3/CMakeFiles/add.dir
@@ -220,7 +256,7 @@ c_example/part3/CMakeFiles/arraycompare.dir/clean:
 c_example/part3/CMakeFiles/bubblesorting.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/bubblesorting.dir/build.make c_example/part3/CMakeFiles/bubblesorting.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/bubblesorting.dir/build.make c_example/part3/CMakeFiles/bubblesorting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=7,8 "Built target bubblesorting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=10,11 "Built target bubblesorting"
 .PHONY : c_example/part3/CMakeFiles/bubblesorting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -246,7 +282,7 @@ c_example/part3/CMakeFiles/bubblesorting.dir/clean:
 c_example/part3/CMakeFiles/loaclVariable.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/loaclVariable.dir/build.make c_example/part3/CMakeFiles/loaclVariable.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/loaclVariable.dir/build.make c_example/part3/CMakeFiles/loaclVariable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=12,13 "Built target loaclVariable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=15,16 "Built target loaclVariable"
 .PHONY : c_example/part3/CMakeFiles/loaclVariable.dir/all
 
 # Build rule for subdir invocation for target.
@@ -272,7 +308,7 @@ c_example/part3/CMakeFiles/loaclVariable.dir/clean:
 c_example/part3/CMakeFiles/pointer1.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointer1.dir/build.make c_example/part3/CMakeFiles/pointer1.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointer1.dir/build.make c_example/part3/CMakeFiles/pointer1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=14,15 "Built target pointer1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=20,21 "Built target pointer1"
 .PHONY : c_example/part3/CMakeFiles/pointer1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -298,7 +334,7 @@ c_example/part3/CMakeFiles/pointer1.dir/clean:
 c_example/part3/CMakeFiles/pointer2.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointer2.dir/build.make c_example/part3/CMakeFiles/pointer2.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointer2.dir/build.make c_example/part3/CMakeFiles/pointer2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=16,17 "Built target pointer2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=22,23 "Built target pointer2"
 .PHONY : c_example/part3/CMakeFiles/pointer2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -324,7 +360,7 @@ c_example/part3/CMakeFiles/pointer2.dir/clean:
 c_example/part3/CMakeFiles/pointer3.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointer3.dir/build.make c_example/part3/CMakeFiles/pointer3.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointer3.dir/build.make c_example/part3/CMakeFiles/pointer3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=18,19 "Built target pointer3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=24,25 "Built target pointer3"
 .PHONY : c_example/part3/CMakeFiles/pointer3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -350,7 +386,7 @@ c_example/part3/CMakeFiles/pointer3.dir/clean:
 c_example/part3/CMakeFiles/pointer5functionpointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointer5functionpointer.dir/build.make c_example/part3/CMakeFiles/pointer5functionpointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointer5functionpointer.dir/build.make c_example/part3/CMakeFiles/pointer5functionpointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=20,21 "Built target pointer5functionpointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=26,27 "Built target pointer5functionpointer"
 .PHONY : c_example/part3/CMakeFiles/pointer5functionpointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -376,7 +412,7 @@ c_example/part3/CMakeFiles/pointer5functionpointer.dir/clean:
 c_example/part3/CMakeFiles/pointer6.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointer6.dir/build.make c_example/part3/CMakeFiles/pointer6.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointer6.dir/build.make c_example/part3/CMakeFiles/pointer6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=22,23 "Built target pointer6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=28,29 "Built target pointer6"
 .PHONY : c_example/part3/CMakeFiles/pointer6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -402,7 +438,7 @@ c_example/part3/CMakeFiles/pointer6.dir/clean:
 c_example/part3/CMakeFiles/pointerandarray.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointerandarray.dir/build.make c_example/part3/CMakeFiles/pointerandarray.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointerandarray.dir/build.make c_example/part3/CMakeFiles/pointerandarray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=24,25 "Built target pointerandarray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=30,31 "Built target pointerandarray"
 .PHONY : c_example/part3/CMakeFiles/pointerandarray.dir/all
 
 # Build rule for subdir invocation for target.
@@ -428,7 +464,7 @@ c_example/part3/CMakeFiles/pointerandarray.dir/clean:
 c_example/part3/CMakeFiles/pointerandarray2.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointerandarray2.dir/build.make c_example/part3/CMakeFiles/pointerandarray2.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/pointerandarray2.dir/build.make c_example/part3/CMakeFiles/pointerandarray2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=26,27 "Built target pointerandarray2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=32,33 "Built target pointerandarray2"
 .PHONY : c_example/part3/CMakeFiles/pointerandarray2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -454,7 +490,7 @@ c_example/part3/CMakeFiles/pointerandarray2.dir/clean:
 c_example/part3/CMakeFiles/qsort.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/qsort.dir/build.make c_example/part3/CMakeFiles/qsort.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/qsort.dir/build.make c_example/part3/CMakeFiles/qsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=28,29 "Built target qsort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=34,35 "Built target qsort"
 .PHONY : c_example/part3/CMakeFiles/qsort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -480,7 +516,7 @@ c_example/part3/CMakeFiles/qsort.dir/clean:
 c_example/part3/CMakeFiles/selectionSorting.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/selectionSorting.dir/build.make c_example/part3/CMakeFiles/selectionSorting.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/selectionSorting.dir/build.make c_example/part3/CMakeFiles/selectionSorting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=30,31 "Built target selectionSorting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=36,37 "Built target selectionSorting"
 .PHONY : c_example/part3/CMakeFiles/selectionSorting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -506,7 +542,7 @@ c_example/part3/CMakeFiles/selectionSorting.dir/clean:
 c_example/part3/CMakeFiles/swap.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/swap.dir/build.make c_example/part3/CMakeFiles/swap.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part3/CMakeFiles/swap.dir/build.make c_example/part3/CMakeFiles/swap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=32,33 "Built target swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=38,39 "Built target swap"
 .PHONY : c_example/part3/CMakeFiles/swap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -532,7 +568,7 @@ c_example/part3/CMakeFiles/swap.dir/clean:
 c_example/part4/carSerial/CMakeFiles/carSerial.dir/all:
 	$(MAKE) $(MAKESILENT) -f c_example/part4/carSerial/CMakeFiles/carSerial.dir/build.make c_example/part4/carSerial/CMakeFiles/carSerial.dir/depend
 	$(MAKE) $(MAKESILENT) -f c_example/part4/carSerial/CMakeFiles/carSerial.dir/build.make c_example/part4/carSerial/CMakeFiles/carSerial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=9,10,11 "Built target carSerial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=12,13,14 "Built target carSerial"
 .PHONY : c_example/part4/carSerial/CMakeFiles/carSerial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -550,6 +586,58 @@ carSerial: c_example/part4/carSerial/CMakeFiles/carSerial.dir/rule
 c_example/part4/carSerial/CMakeFiles/carSerial.dir/clean:
 	$(MAKE) $(MAKESILENT) -f c_example/part4/carSerial/CMakeFiles/carSerial.dir/build.make c_example/part4/carSerial/CMakeFiles/carSerial.dir/clean
 .PHONY : c_example/part4/carSerial/CMakeFiles/carSerial.dir/clean
+
+#=============================================================================
+# Target rules for target c_example/part4/myRandom/CMakeFiles/myRandom.dir
+
+# All Build rule for target.
+c_example/part4/myRandom/CMakeFiles/myRandom.dir/all:
+	$(MAKE) $(MAKESILENT) -f c_example/part4/myRandom/CMakeFiles/myRandom.dir/build.make c_example/part4/myRandom/CMakeFiles/myRandom.dir/depend
+	$(MAKE) $(MAKESILENT) -f c_example/part4/myRandom/CMakeFiles/myRandom.dir/build.make c_example/part4/myRandom/CMakeFiles/myRandom.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=17,18,19 "Built target myRandom"
+.PHONY : c_example/part4/myRandom/CMakeFiles/myRandom.dir/all
+
+# Build rule for subdir invocation for target.
+c_example/part4/myRandom/CMakeFiles/myRandom.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jyhwang0631/jyhwang0631/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_example/part4/myRandom/CMakeFiles/myRandom.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jyhwang0631/jyhwang0631/build/CMakeFiles 0
+.PHONY : c_example/part4/myRandom/CMakeFiles/myRandom.dir/rule
+
+# Convenience name for target.
+myRandom: c_example/part4/myRandom/CMakeFiles/myRandom.dir/rule
+.PHONY : myRandom
+
+# clean rule for target.
+c_example/part4/myRandom/CMakeFiles/myRandom.dir/clean:
+	$(MAKE) $(MAKESILENT) -f c_example/part4/myRandom/CMakeFiles/myRandom.dir/build.make c_example/part4/myRandom/CMakeFiles/myRandom.dir/clean
+.PHONY : c_example/part4/myRandom/CMakeFiles/myRandom.dir/clean
+
+#=============================================================================
+# Target rules for target c_example/part4/baseballGame/CMakeFiles/baseballGame.dir
+
+# All Build rule for target.
+c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/all:
+	$(MAKE) $(MAKESILENT) -f c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/build.make c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/depend
+	$(MAKE) $(MAKESILENT) -f c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/build.make c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jyhwang0631/jyhwang0631/build/CMakeFiles --progress-num=7,8,9 "Built target baseballGame"
+.PHONY : c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/all
+
+# Build rule for subdir invocation for target.
+c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jyhwang0631/jyhwang0631/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jyhwang0631/jyhwang0631/build/CMakeFiles 0
+.PHONY : c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/rule
+
+# Convenience name for target.
+baseballGame: c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/rule
+.PHONY : baseballGame
+
+# clean rule for target.
+c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/clean:
+	$(MAKE) $(MAKESILENT) -f c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/build.make c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/clean
+.PHONY : c_example/part4/baseballGame/CMakeFiles/baseballGame.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
