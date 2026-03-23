@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/jyhwang0631/jyhwang0631/build/atmega128-build",
+  "command": "/usr/bin/avr-gcc   -g -mmcu=atmega128 -DF_CPU=16000000UL -Os -Wall -o CMakeFiles/Atmega128_Project.elf.dir/src/led4.c.obj -c /home/jyhwang0631/jyhwang0631/atmega128/src/led4.c",
+  "file": "/home/jyhwang0631/jyhwang0631/atmega128/src/led4.c",
+  "output": "CMakeFiles/Atmega128_Project.elf.dir/src/led4.c.obj"
+}
+]
