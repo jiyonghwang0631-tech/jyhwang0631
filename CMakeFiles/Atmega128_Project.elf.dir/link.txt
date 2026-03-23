@@ -1,1 +1,0 @@
-/usr/bin/avr-gcc -g -mmcu=atmega128 CMakeFiles/Atmega128_Project.elf.dir/src/led4.c.obj -o Atmega128_Project.elf 

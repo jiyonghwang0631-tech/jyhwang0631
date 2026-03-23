@@ -1,4 +1,0 @@
-/home/jyhwang0631/jyhwang0631/build/atmega128-build/CMakeFiles/Atmega128_Project.elf.dir
-/home/jyhwang0631/jyhwang0631/build/atmega128-build/CMakeFiles/upload.dir
-/home/jyhwang0631/jyhwang0631/build/atmega128-build/CMakeFiles/edit_cache.dir
-/home/jyhwang0631/jyhwang0631/build/atmega128-build/CMakeFiles/rebuild_cache.dir
